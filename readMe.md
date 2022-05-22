@@ -1,4 +1,12 @@
-### How to install
+# What inside
+1. **Redis** - 6.2.0
+2. **Mysql** - 8.0.28
+3. **RabbitMQ** - 3.10.2
+4. **Nginx** - 1.12
+5. **Php-fpm** - 8.1 (With all extensions & code examples to work with described above services).
+6. **Docker-compose** with **traefik**.
+
+# How to install
 1. Run `docker-compose up -d`
 2. Go to http://demo-proxy.localhost/ to see traefik dashboard
 4. Go to http://demo.localhost/ to test nginx & php works as expected
